@@ -105,6 +105,7 @@ uploadDocument.addEventListener("change", (e) => {
     reader.readAsText(file);
     reader.onload = (e) => {
       inputTextElem.value = e.target.result;
+      inputChars.innerHTML = inputTextElem.value.length;
       translate();
     };
   } else {
