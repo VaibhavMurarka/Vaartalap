@@ -99,13 +99,7 @@ const uploadDocument = document.querySelector("#upload-document"),
 
 uploadDocument.addEventListener("change", (e) => {
   const file = e.target.files[0];
-  if (
-    file.type === "application/pdf" ||
-    file.type === "text/plain" ||
-    file.type === "application/msword" ||
-    file.type ===
-      "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
-  ) {
+  if (file.type === "text/plain" ) {
     uploadTitle.innerHTML = file.name;
     const reader = new FileReader();
     reader.readAsText(file);
@@ -114,7 +108,7 @@ uploadDocument.addEventListener("change", (e) => {
       translate();
     };
   } else {
-    alert("Please upload a valid file");
+    alert("Please upload a text file");
   }
 });
 
