@@ -11,7 +11,7 @@ Vaartalap is a web-based language translation application that leverages the Goo
 ![img3](https://github.com/VaibhavMurarka/Vaartalap/blob/main/img3(translation).png)
 
 ## Download the output as text file and dark mode
-![img4](https://github.com/VaibhavMurarka/Vaartalap/blob/main/img4(download%26darkmode.png))
+![img4](https://github.com/VaibhavMurarka/Vaartalap/blob/main/img4(download%26darkmode).png)
 
 ## Website link:
 https://vaartalap-pink.vercel.app/
